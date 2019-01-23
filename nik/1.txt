@@ -1,0 +1,17 @@
+a)
+	s - sign message
+	e - encrypt data
+	a - Create ASCII armored output.
+	r - Encrypt for user id name
+
+	Poruka koja je zadata /backup/dat1 biva enkriptovana i potpisana,
+	Pravi se ASCII armor i enkriptuje se za usera mi16888
+
+b)
+	Korisnik kojie je zadao komandu treba da ima napravljene private i public key
+
+c)
+	Da jer sajt koristi https protokol i pgp zastitu, mora da ima javni kljuc korisnika kome salje podatke
+
+d)
+	Da moze da pretrazi javne kljuceve (koje su drugi korisnici okacili na sajt) koji su dostupni
